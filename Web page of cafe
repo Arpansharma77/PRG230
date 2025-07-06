@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>☕ Presidential College Café</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffe5b4, #ffc3a0, #ffa07a);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      color: white;
+      margin-bottom: 20px;
+      text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.6);
+      margin-bottom: 15px;
+      border-radius: 15px;
+      padding: 20px;
+      cursor: pointer;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    }
+
+    .card h2 {
+      font-size: 1.8rem;
+      color: #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card p {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      color: #444;
+      line-height: 1.6;
+      display: none;
+      opacity: 0;
+      transition: all 0.4s ease;
+    }
+
+    .card.active p {
+      display: block;
+      opacity: 1;
+    }
+
+    .icon {
+      font-size: 1.5rem;
+      transform: rotate(0deg);
+      transition: transform 0.3s ease;
+    }
+
+    .card.active .icon {
+      transform: rotate(180deg);
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      color: white;
+      font-size: 0.95rem;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .card h2 {
+        font-size: 1.4rem;
+      }
+
+      .card p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>☕ Presidential College Café</h1>
+
+    <!-- Menu Card -->
+    <div class="card" onclick="toggleCard(this)">
+      <h2>📋 Menu <span class="icon">▼</span></h2>
+      <p><strong>Coffee:</strong> Espresso, Latte, Cappuccino<br>
+         <strong>Snacks:</strong> Sandwiches, Cookies, Muffins<br>
+         <strong>Drinks:</strong> Iced Tea, Smoothies, Lemonade</p>
+    </div>
+
+    <!-- Opening Hours Card -->
+    <div class="card" onclick="toggleCard(this)">
+      <h2>🕒 Opening Hours <span class="icon">▼</span></h2>
+      <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+         Saturday: 10:00 AM - 4:00 PM<br>
+         Sunday: Closed</p>
+    </div>
+
+    <!-- Location Card -->
+    <div class="card" onclick="toggleCard(this)">
+      <h2>📍 Location <span class="icon">▼</span></h2>
+      <p>Block A, Presidential College Campus<br>
+         Ring Road, Kathmandu</p>
+    </div>
+
+    <!-- Contact Card -->
+    <div class="card" onclick="toggleCard(this)">
+      <h2>📞 Contact <span class="icon">▼</span></h2>
+      <p>Email: cafe@presidentialcollege.edu.np<br>
+         Phone: +977-9866202069</p>
+    </div>
+
+    <footer>&copy; 2025 Presidential College Café. All rights reserved.</footer>
+  </div>
+
+  <script>
+    function toggleCard(card) {
+      card.classList.toggle("active");
+
+      // Collapse others
+      const cards = document.querySelectorAll(".card");
+      cards.forEach(c => {
+        if (c !== card) {
+          c.classList.remove("active");
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
