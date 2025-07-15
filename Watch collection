@@ -1,0 +1,144 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luxury Watches Collection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .watch {
+      background: #fff;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .watch:hover {
+      transform: scale(1.03);
+    }
+    .watch img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .watch-title {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🕰️ Luxury Watch Gallery</h1>
+
+  <div class="grid">
+    <div class="watch">
+      <a href="rolex.html">
+        <img src="http://www.diamondcellar.com/cdn/shop/files/m126233-0018_drp-upright-bba-with-shadow.png?v=1720718388" alt="Rolex">
+        <p class="watch-title">Rolex M126233</p>
+      </a>
+    </div>
+
+    <div class="watch">
+      <a href="fossil.html">
+        <img src="https://mzwatcheslk.com/cdn/shop/products/fossil_grant_fs4812ie_1587896286_adbf8bba_progressive_1080x1080.jpg?v=1708506284" alt="Fossil FS4812">
+        <p class="watch-title">Fossil FS4812</p>
+      </a>
+    </div>
+
+    <div class="watch">
+      <a href="poedagar.html">
+        <img src="https://poedagar.store/wp-content/uploads/2025/04/%E7%99%BD%E5%BA%95-1.jpg" alt="Poedagar">
+        <p class="watch-title">Poedagar Premium</p>
+      </a>
+    </div>
+
+    <div class="watch">
+      <a href="casio.html">
+        <img src="http://casioau.com/cdn/shop/products/dbc32-1-casio-vintage-786449.jpg?v=1710527942" alt="Casio Vintage">
+        <p class="watch-title">Casio DBC32 Vintage</p>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rolex M126233</title>
+</head>
+<body style="font-family: Arial; text-align: center; padding: 40px;">
+  <h1>Rolex M126233</h1>
+  <img src="http://www.diamondcellar.com/cdn/shop/files/m126233-0018_drp-upright-bba-with-shadow.png?v=1720718388" width="300">
+  <p><strong>Price:</strong> $13,000+ USD</p>
+  <p>A timeless blend of steel and yellow gold, this Rolex features a fluted bezel and champagne dial with Jubilee bracelet.</p>
+  <a href="index.html">← Back to Home</a>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fossil FS4812</title>
+</head>
+<body style="font-family: Arial; text-align: center; padding: 40px;">
+  <h1>Fossil FS4812</h1>
+  <img src="https://mzwatcheslk.com/cdn/shop/products/fossil_grant_fs4812ie_1587896286_adbf8bba_progressive_1080x1080.jpg?v=1708506284" width="300">
+  <p><strong>Price:</strong> $129 USD</p>
+  <p>Classic chronograph leather watch with black dial, Roman numeral indexes, and stainless steel casing.</p>
+  <a href="index.html">← Back to Home</a>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Poedagar Premium</title>
+</head>
+<body style="font-family: Arial; text-align: center; padding: 40px;">
+  <h1>Poedagar Premium Watch</h1>
+  <img src="https://poedagar.store/wp-content/uploads/2025/04/%E7%99%BD%E5%BA%95-1.jpg" width="300">
+  <p><strong>Price:</strong> $80 USD</p>
+  <p>Elegant design with automatic movement, perfect for formal and casual wear. Water-resistant and scratch-proof glass.</p>
+  <a href="index.html">← Back to Home</a>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Casio DBC32</title>
+</head>
+<body style="font-family: Arial; text-align: center; padding: 40px;">
+  <h1>Casio Vintage DBC32</h1>
+  <img src="http://casioau.com/cdn/shop/products/dbc32-1-casio-vintage-786449.jpg?v=1710527942" width="300">
+  <p><strong>Price:</strong> $50 USD</p>
+  <p>Classic digital multifunctional watch with calculator, alarm, stopwatch, and 10-year battery.</p>
+  <a href="index.html">← Back to Home</a>
+</body>
+</html>
