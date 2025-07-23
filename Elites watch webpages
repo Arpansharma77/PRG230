@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Elite Watches</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <img src="logo.png" alt="Elite Watches Logo" class="logo">
+      <h1>Elite Watches</h1>
+      <p>Timeless Elegance on Your Wrist</p>
+    </div>
+  </header>
+
+  <section class="about container">
+    <h2>About Elite Watches</h2>
+    <p>Elite Watches offers a curated selection of premium timepieces—from classic analog elegance to modern digital utility. Whether you're dressing up or staying active, our watches bring style, precision, and functionality to every moment."Elite Watch" can refer to two distinct types of watches: smartwatches with advanced features for fitness and wellness tracking and luxury mechanical watches known for their sophisticated design and craftsmanship. The former emphasizes technological functionality, while the latter focuses on traditional horological excellence and heritage. </p>
+  </section>
+
+  <section class="products container">
+    <h2>Popular Watches</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/fossil_fs4812.jpg" alt="Fossil Grant FS4812">
+        <h3>Fossil Grant FS4812</h3>
+        <p>Classic and refined: black dial, leather strap, and Roman numerals. A perfect dress watch.</p>
+      </div>
+      <div class="product-card">
+        <img src="casio_ca53w.jpg" alt="Casio CA‑53W">
+        <h3>Casio CA‑53W</h3>
+        <p>Iconic calculator watch: retro digital style with practical built-in calculator functions.</p>
+      </div>
+      <div class="product-card">
+        <img src="rolex_daytona.jpg" alt="Rolex Daytona">
+        <h3>Rolex Daytona</h3>
+        <p>Luxury chronograph masterpiece with rainbow bezel—timeless craftsmanship and prestige.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="arpanadhikari753@gmail.com">arpanadhikari753@gmail.com</a></p>
+      <p>Phone: 9866202069</p>
+      <p>Address: 1234 Watch Ave, New York, USA</p>
+    </div>
+  </footer>
+
+</body>
+</html>
